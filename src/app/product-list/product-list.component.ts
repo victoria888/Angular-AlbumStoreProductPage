@@ -12,7 +12,7 @@ products: Product[]
   constructor(private __productService: ProductService) { }
 
   ngOnInit() {
-    this.__productService.getProducts().subscribe(response => this.products = response)
+    this.__productService.getProducts().subscribe(response => this.products = response);
   }
 
 }
